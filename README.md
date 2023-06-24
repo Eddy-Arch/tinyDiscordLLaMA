@@ -20,10 +20,17 @@ Lets say i want to use the LLaMA model.
 chmod +x prepare_llama.sh
 bash ./prepare_llama.sh
 ```
-
+then you must install the required dependencies for this to run.
+```bash
+pip3 install -r requirements.txt
+```
 Next, you must create a discord Developer application, and pass
 your token in the config.py file.
 then you must make sure to have selected the model you have installed.
+Then, you may run the following command to start the bot
+```bash
+python3 bot.py
+```
 ## Usage:
 Commands must be executed with a prefix, the default prefix is "!"
 There are 3 available commands:
