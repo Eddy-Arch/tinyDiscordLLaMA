@@ -42,12 +42,13 @@ async def generate(ctx, *args):
     async def generate_sentences():
         sentences_generator = generate_from_model(prompt)
         for sentence in sentences_generator:
-            if not continue_generation.is_set():  # Check the event
-                break
-            if sentence == '\n' or sentence == "":
-                print("")
-            else:
-                await ctx.send(sentence)
+            async with ctx.typing():
+                if not continue_generation.is_set():  # Check the event
+                    break
+                if sentence == '\n' or sentence == "":
+                    print("")
+                else:
+                        await ctx.send(sentence)
 
     generation_task = asyncio.create_task(generate_sentences())
 
