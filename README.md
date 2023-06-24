@@ -10,6 +10,8 @@ Currently, you can talk to an *uncensored* version of the following models:
 - LLaMA (7B parameters) (GGML 4Bit Quantization)
 - Vicuna (7B parameters) (GGML 4Bit Quantization) (Uncensored)
 
+Through trial and error i have found that the falcon model
+gives the best results.
 ## Getting started:
 To begin using the model, you must download the weights
 for it. I have included a handy script that will automatically
