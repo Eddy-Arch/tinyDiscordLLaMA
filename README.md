@@ -1,4 +1,4 @@
-# discordLLM - Running Large Language Models locally through discord
+# tinyDiscordLLaMA - Running Large Language Models locally through discord
 This repo allows you to chat with large language models, locally,
 through the comfortable Discord interface.
 ![Screenshot](https://cdn.discordapp.com/attachments/873898434950746145/1122165476571742228/image.png)
@@ -9,6 +9,7 @@ Currently, you can talk to an *uncensored* version of the following models:
 - Falcon (7B parameters) (GGML 4Bit Quantization) (Uncensored)
 - LLaMA (7B parameters) (GGML 4Bit Quantization)
 - Vicuna (7B parameters) (GGML 4Bit Quantization) (Uncensored)
+- Guanaco
 
 ## Getting started:
 To begin using the model, you must download the weights
