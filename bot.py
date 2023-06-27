@@ -19,6 +19,9 @@ elif config.model == "llama":
 elif config.model == "guanaco":
     from models.guanaco import *
     print("Loaded Guanaco Model")
+elif config.model == "mpt":
+    from models.mpt import *
+    print("Loaded MPT Model")
 else:
     print("Improper model name passed, loading default model (Falcon)")
     from falcon import *

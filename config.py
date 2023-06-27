@@ -1,3 +1,3 @@
 token = ""
 bot_prefix = "!"
-model = "llama" # options are: "falcon", "llama", "vicuna", "guanaco"
+model = "llama" # options are: "falcon", "llama", "vicuna", "guanaco", "mpt"
