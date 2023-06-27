@@ -16,6 +16,9 @@ elif config.model =="vicuna":
 elif config.model =="llama":
     from models.vicuna import *
     print("Loaded LLaMA Model")
+elif config.model =="guanaco":
+    from models.guanaco import *
+    print("Loaded Guanaco Model")
 else:
     print("improper model name passed, loading default model (Falcon)")
     from falcon import *
