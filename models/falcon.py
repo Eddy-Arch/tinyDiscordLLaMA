@@ -1,6 +1,6 @@
 from ctransformers import AutoModelForCausalLM
 
-llm = AutoModelForCausalLM.from_pretrained('./weights/vicuna.bin', model_type='falcon')
+llm = AutoModelForCausalLM.from_pretrained('./weights/falcon.bin', model_type='falcon')
 
 def generate(prompt):
     yield prompt + "\n"
